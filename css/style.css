@@ -1,0 +1,632 @@
+/* ここから下に記載していく */
+body {
+    width: 1200px;
+    font-family:"游ゴシック","arial unicode ms",sans-serif
+
+}
+
+html{
+  width: 1200px;
+}
+
+
+    /*ロゴ*/
+    .logo{
+        position: absolute;
+        float:left;
+    }
+    .logo>img{
+        position: absolute;
+        padding-top:20px;
+        padding-left:20px;
+    }
+    /*右側コメント*/
+
+    .inner{
+        width: 1200px;
+        margin:0 auto;
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;/*相対配置*/
+      }
+      
+      .inner h2{
+        color: white;
+        line-height: 60px;
+        padding-top: 30px;
+        font-weight: bold;
+        position: absolute;/*絶対配置*/
+        color:white;/*文字は白に*/
+        top: 120px;
+        left: 400px;
+        font-size: 35px;
+        line-height: 2;
+      }
+
+      .inner p{
+        color: white;
+        line-height: 60px;
+        padding-top: 30px;
+        font-size: 18px;
+        letter-spacing: 0.15em;
+        position: absolute;/*絶対配置*/
+        color:white;/*文字は白に*/
+        bottom: 120px;
+        left: 250px;
+        font-size: 30px;
+        line-height: 2;
+        font-weight: lighter;
+      }
+      
+      .inner img {
+        width: 100%;
+        }
+
+
+
+      /* 写真と説明 */
+    .flexbox{
+        height: 400px;
+        width: 1200px;
+        margin:0 auto;
+        display: flex;
+        justify-content: flex-end;
+        }
+      
+      .flexbox01{
+        width: 600px;
+        margin:0 auto;
+        height: 400px;
+      }
+      .flexbox01 img{
+        width: 100%;
+        object-fit: cover;
+      }
+      .flexbox02{
+        background-color:#eee;
+        width: 600px;
+        margin:0 auto;
+        height: 402.92px;
+      }
+      .flexbox02 h3{
+        font-size: 20px;
+        text-align: left;
+        padding-top: 120px;
+        padding-left: 50px;
+        font-weight: bold;
+      }
+      .flexbox02 p{
+        font-size: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 130px;
+        line-height: 30px;
+        font-weight: lighter;
+      }
+
+      
+.flexbox-second{
+    background-color:black;
+    height: 400px;
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content:flex-end;
+  }
+  .flexbox-second_1{
+    background-color:#eee;
+    width: 600px;
+    margin:0 auto;
+    height: 400px;
+  }
+  .flexbox-second_1 h3{
+    font-size: 20px;
+    text-align: right;
+    padding-top: 110px;
+    padding-right: 240px;
+    font-weight: bold;
+
+  }
+  .flexbox-second_1 p{
+    font-size: 13px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    line-height: 30px;
+    font-weight: lighter;
+  }
+
+  .flexbox-second_2{
+    width: 600px;
+    margin:0 auto;
+    height: 400px;
+  }
+  .flexbox-second_2 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .news-list{
+    height: 300px;
+    width: 960px;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 100px;
+
+  }
+
+  .news-list-inner{
+    height: 300px;
+    width: 300px;
+    margin:0 auto;
+    margin-bottom: 20px;
+  }
+  .news-list-inner:hover{
+    color: blue; /* 文字色を変える */
+  }
+  .news-list-inner p{
+    text-align: left;
+  }
+  .news-list-inner img:hover {
+    opacity: 0.5;
+  }
+
+  .news-list-top{
+    padding-top: 30px;
+    padding-bottom: 24px;
+  }
+
+
+
+
+  .more{
+    margin-top: 30px;
+    background-color:gold;
+    width: 300px;
+    margin:0 auto;
+    height: 60px;
+    margin-bottom: 20px;
+    text-decoration:none;
+    color: white;
+  }
+  
+  .more:hover{
+    color:black; /* 文字色を白にする */
+    background-color: #c9c9c9; /* 背景色をグレー（#c9c9c9）にする */
+    text-decoration:none; /* リンクに出てくる下線を無効にする*/    
+  }
+  
+  .more h2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+  }
+    
+    .catch {
+    padding-top: 20px;
+    font-size:24px;
+    line-height: 2;
+    text-align: center;
+    }
+
+
+    .nav {
+        list-style: none;
+        overflow: hidden;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 500px;
+      }
+       
+    .nav li {
+        width: 140px;
+        text-align: right;
+        float: left;
+      }
+       
+    .nav li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 21px;
+      }
+
+
+    
+
+
+    .section-title-yellow{
+        text-align: center;
+        font-size: 24px;
+        padding-top: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color:#ffd61a;
+        font-weight: bold;
+    }
+
+    .section-title-black{
+        text-align: center;
+        font-size: 24px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        color:#222222;
+        font-weight: bold;
+    }
+
+
+    .section-middle{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 60px;
+        
+    }
+
+    .section-note1{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 30px;
+        
+    }
+
+    .section-note2{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 40px;
+        
+    }
+
+    .section-note2{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 40px;
+        
+    }
+
+    .section-note3{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 80px;
+        
+    }
+
+    .slides{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    
+    .slides li {
+        width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+        box-sizing:border-box;
+    }
+    .slides li img {
+        max-width:103%; /*画像のはみだしを防ぐ*/
+        height: auto; /*画像の縦横比を維持 */
+    }
+
+    
+.section-course{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+footer{
+    background-color:#707070;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    }
+
+    .map {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 60px;
+      }
+      
+      .map iframe {
+        padding-left: 14%;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 70%;
+      }
+
+      .address{
+        font-size: 14px;
+        padding-left: 400px;
+        padding-bottom: 60px;
+        line-height: 40px;
+      }
+      .address td{
+        border: none;
+        text-align: left;
+        width: 400px;
+      }
+
+      .address th{
+        border: none;
+        text-align: left;
+      }
+
+
+
+      .address h2{
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .address p{
+        text-align: center;
+        font-size: 14px;
+        padding-top: 10px;
+        line-height: 30px;
+      }
+
+      .contact1 h2{
+        text-align: center;
+        font-size: 24px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+        color: black;
+        font-weight: 900;
+      }
+      .contact1 h3{
+        text-align: center;
+        line-height: 40px;
+        padding-bottom: 60px;
+                font-size: 14px;
+      }
+      .contact1 p{
+        text-align: center;
+        line-height: 20px;
+        font-size: 14px;
+      }
+
+      .contact-pad1{
+        padding-top: 30px;
+        padding-bottom: 70px;
+      }
+
+      
+
+      .hyou{
+        width: 500px;
+        margin:auto;
+      }
+
+      table{
+        text-align: center;
+      }
+      th{
+        /* background-color: red; */
+        border-bottom:black 1px solid;
+        border-top:black 1px solid;
+        /* padding:10px; */
+        /* height: 30px; */
+        width: 200px;
+      }
+      td{
+        /* background-color: pink; */
+        border-bottom:black 1px solid;
+        border-left:black 1px solid;
+        border-top:black 1px solid;
+        /* height: 30px; */
+        width: 270px;
+      }
+
+      .cp_iptxt {
+        position: relative;
+        width: 90%;
+        margin: 8px;
+      }
+
+      .cp_iptxt input[type='text'] {
+        font: 10px/20px sans-serif;
+        box-sizing: border-box;
+        width: 328px;
+        height: 38px;
+        transition: 0.3s;
+        letter-spacing: 1px;
+        color: black;
+        border: 1px solid gray;
+        border-radius: 4px;
+      }
+
+      .cp_iptxt input[type='text2'] {
+        font: 10px/20px sans-serif;
+        box-sizing: border-box;
+        width: 328px;
+        height: 100px;
+        transition: 0.3s;
+        letter-spacing: 1px;
+        color: black;
+        border: 1px solid gray;
+        border-radius: 4px;
+      }
+
+      .ef input[type='text']:focus {
+        border: 1px solid brown;
+        outline: none;
+        box-shadow: 0 0 5px 1px rebeccapurple (218,60,65, .5);
+      }
+
+      .ef input[type='text2']:focus {
+        border: 1px solid pink;
+        outline: none;
+        box-shadow: 0 0 5px 1px palevioletred (218,60,65, .5);
+      }
+
+      .cp_ipselect {
+        overflow: hidden;
+        width: 90%;
+        margin: 2em auto;
+        text-align: center;
+      }
+      /* ここかチェックボックス */
+      .cp_ipselect select {
+        width: 100%;
+        padding-right: 1em;
+        cursor: pointer;
+        text-indent: 0.01px;
+        text-overflow: ellipsis;
+        border: none;
+        outline: none;
+        background: transparent;
+        background-image: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        appearance: none;
+      }
+      .cp_ipselect select::-ms-expand {
+          display: none;
+      }
+      .cp_ipselect.cp_sl01 {
+        /* position: relative; */
+        border: 1px solid #bbbbbb;
+        border-radius: 2px;
+        background: #ffffff;
+        height: 30px;
+      }
+      .cp_ipselect.cp_sl01::before {
+        position: absolute;
+        top: 0.8em;
+        right: 0.9em;
+        width: 0;
+        height: 0;
+        padding: 0;
+        content: '';
+        border-left: 3px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #666666;
+        pointer-events: none;
+      }
+      .cp_ipselect.cp_sl01 select {
+        padding: 8px 38px 8px 8px;
+        color: #666666;
+      }
+      .cp_ipcheck {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+      }
+      .cp_ipcheck:before, .cp_ipcheck:after {
+        -webkit-box-sizing: inherit;
+                box-sizing: inherit;
+      }
+      .cp_ipcheck .box {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        border-radius: 3px;
+        background: #ffffff;
+      }
+      .cp_ipcheck input[type=checkbox] {
+        display: none;
+      }
+      .cp_ipcheck label:focus,
+      .cp_ipcheck label:hover,
+      .cp_ipcheck label:active,
+      .cp_ipcheck input:checked + label {
+        color:black;
+      }
+      .cp_ipcheck label:focus:before,
+      .cp_ipcheck label:hover:before,
+      .cp_ipcheck label:active:before,
+      .cp_ipcheck input:checked + label:before {
+        border-color:black;
+        background: #ffffff;
+      }
+      .cp_ipcheck label {
+        font-size: 1em;
+        font-weight: normal;
+        line-height: 1;
+        position: relative;
+        display: block;
+        overflow: hidden;
+        padding: 1em 0em 0.3em 3em;
+      }
+      
+      .cp_ipcheck label:before {
+        position: absolute;
+        top: 18px;
+        left: 18px;
+        width: 10px;
+        height: 10px;
+        content: '';
+        border: 0.2em solid #cccccc;
+        margin-top: 6px;
+      }
+      .cp_ipcheck input:checked + label:before {
+        border-color: black;
+        background: black;
+      }
+      .soshin{
+        width: 300px;
+        margin:0 auto;
+        height: 60px;
+        background-color:gold;
+      }
+
+      .soshin:hover{
+        color: #000; /* 文字色を白にする */
+        background-color: #c9c9c9; /* 背景色をグレー（#c9c9c9）にする */
+        text-decoration: none; /* リンクに出てくる下線を無効にする*/    
+      }
+      .soshin h2{
+        text-align: center;
+        color: #fff;
+        padding-top: 20px;
+        margin-top: 30px;
+      }
+
+      .copy{
+        width: 1300px;
+        margin:0 auto;
+        height: 50px;
+        background-color: #707070;
+        margin-top: 30px;
+      }
+      .copy p{
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+      }
+
+      .soshin{
+        width: 300px;
+        margin:0 auto;
+        height: 60px;
+        background-color:gold;
+        margin-top: 20px;
+        margin-bottom: 100px;
+      }
+      .soshin:hover{
+        color: #000; /* 文字色を白にする */
+        background-color: #c9c9c9; /* 背景色をグレー（#c9c9c9）にする */
+        text-decoration: none; /* リンクに出てくる下線を無効にする*/    
+      }
+      .soshin h1{
+        text-align: center;
+        color: #fff;
+        padding-top: 20px;
+      }
+
+      .cheese-left{
+        text-align: left;
+        font-size: 14px;
+      }
+
+      .hyou-left{
+        text-align: left;
+      }
+
+      footer {
+        margin-top: 140px;
+    }
